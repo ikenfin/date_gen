@@ -90,8 +90,8 @@
                 echo date($format, mktime(0, 0, 0, $month, $day, $year)) . PHP_EOL;
 
                 if($year == $end_datetime->format('Y')
-                        && $month == $end_datetime->format('m')
-                        && $day == $end_datetime->format('d')
+                    && $month == $end_datetime->format('m')
+                    && $day == $end_datetime->format('d')
                 )
                     exit(0);
                 $day++;
