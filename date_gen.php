@@ -1,3 +1,4 @@
+#!/usr/bin/env php
 <?php
     /*
         date_gen - php script that generate dates in user specified format from user specified range
